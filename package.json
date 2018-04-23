@@ -10,8 +10,15 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.15.5",
+    "hue-module": "^0.1.2",
+    "huejay": "^1.8.1",
+    "influx": "^5.0.7",
     "jade": "~1.11.0",
+    "luxon": "^1.1.0",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
     "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
+    "serve-favicon": "~2.4.5",
+    "underscore": "^1.9.0"
   }
 }
