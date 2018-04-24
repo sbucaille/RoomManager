@@ -34,7 +34,7 @@ router.get('/', function(req, res, next) {
 function beginDataCollection(){
     var timeout = setInterval(function () { // A REMETTRE A SETINTERVAL
             client.sensors.getAll().then(sensors => {selectSensorDataAndSendInMeasurement(sensors)})
-        },60000); // A REMETTRE A 5000
+        },5000); // A REMETTRE A 5000
 }
 
 function sendDataToInfluxDB(type, id, sensor){
@@ -45,7 +45,7 @@ function sendDataToInfluxDB(type, id, sensor){
     let originaltime = sensor.state.attributes.attributes.lastupdated;
     let time = sensorTimeManipulation.toLilleTimeStamp(originaltime);
     if(!(value)) value = sensor.state.attributes.attributes[measurementname];
-    console.log("Sensor : " + measurementname + ", value : " + value + ", at : " + sensorTimeManipulation.fromTimestampToTime(time));
+    console.log("Sensor : " + measurementname + ", value : " + value + ", at : " + time);
     influx.writePoints([
         {
             measurement: measurementname,
@@ -53,7 +53,7 @@ function sendDataToInfluxDB(type, id, sensor){
             fields: {value: value},
             timestamp : time,
         }
-    ]).catch(function(e){
+    ], {precision: 's'}).catch(function(e){
         console.log("Erreur écriture de données");
         console.log(e);
     })

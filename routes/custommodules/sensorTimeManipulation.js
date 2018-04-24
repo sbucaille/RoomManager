@@ -13,12 +13,12 @@ var functions = {
         var dateformated = DateTime.fromISO(time);
         var newtime = DateTime.utc(dateformated.utc);
         var localtime = newtime.setZone("Europe/Paris");
-        var localtimestamp = moment(localtime.toString()).format('x');
+        var localtimestamp = moment(localtime.toString()).format('X');
 
         return localtimestamp;
     },
     fromTimestampToTime : function(time) {
-        return moment(parseInt(time)).format("dddd, MMMM Do YYYY, h:mm:ss a");
+        return moment(time.to).format("dddd, MMMM Do YYYY, h:mm:ss a");
     }
 };
 
