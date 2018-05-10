@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4f366c-838e-4ef0-ad1a-e4cb29d2d31a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/DataCollection/hue.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/DataCollection/hue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
-              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -52,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hue.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hue.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+            <state relative-caret-position="480">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -105,11 +99,11 @@
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js" />
-        <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js" />
         <option value="$PROJECT_DIR$/auth.json" />
+        <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
       </list>
     </option>
   </component>
@@ -224,12 +218,12 @@
       <workItem from="1524512111533" duration="10834000" />
       <workItem from="1524560105374" duration="3716000" />
       <workItem from="1525900543463" duration="5752000" />
-      <workItem from="1525906333474" duration="17669000" />
+      <workItem from="1525906333474" duration="17898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73237000" />
+    <option name="totallyTimeSpent" value="73466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -240,7 +234,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2688629" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -554,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -568,10 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="364">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -582,10 +569,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="112">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
