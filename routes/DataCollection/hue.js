@@ -34,7 +34,7 @@ let client = new huejay.Client({
     username : config.bridge.username
 });
 
-beginDataCollection();
+//beginDataCollection();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {

@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/routes/index.js" line="8" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/routes/index.js" line="16" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4f366c-838e-4ef0-ad1a-e4cb29d2d31a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/routes/DataCollection/hue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/custommodules/hueDataCollectionFunctions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/DataCollection/hue.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/DataCollection/hue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,20 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="364">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="96">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkIdentity.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -50,71 +55,17 @@
       <file leaf-file-name="hue.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-339">
-              <caret line="4" column="16" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="765">
+              <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="influxDB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js">
+      <file leaf-file-name="auth.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sensorTimeManipulation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="82" lean-forward="true" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hueDataCollectionFunctions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/hueDataCollectionFunctions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beginDataCollection.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selectSensorDataAndSendInMeasurement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findTypeOfSensorByID.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendDataToInfluxDB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="544">
+              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -146,18 +97,19 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js" />
-        <option value="$PROJECT_DIR$/auth.json" />
         <option value="$PROJECT_DIR$/routes/custommodules/hueDataCollectionFunctions.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js" />
-        <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/externalConnections.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js" />
         <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js" />
+        <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js" />
+        <option value="$PROJECT_DIR$/auth.json" />
       </list>
     </option>
   </component>
@@ -216,19 +168,6 @@
               <item name="PIHueSense" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIHueSense" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="custommodules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PIHueSense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PIHueSense" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="custommodules" type="462c0819:PsiDirectoryNode" />
-              <item name="DataCollectionFunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PIHueSense" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PIHueSense" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="DataCollection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -247,6 +186,7 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -284,23 +224,23 @@
       <workItem from="1524512111533" duration="10834000" />
       <workItem from="1524560105374" duration="3716000" />
       <workItem from="1525900543463" duration="5752000" />
-      <workItem from="1525906333474" duration="6651000" />
+      <workItem from="1525906333474" duration="17669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62219000" />
+    <option name="totallyTimeSpent" value="73237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19114584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19114584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -323,7 +263,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -562,13 +502,6 @@
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -586,6 +519,20 @@
     <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -593,17 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js">
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="416">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -614,31 +554,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="4" column="16" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="765">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="96">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
