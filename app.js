@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let express = require('express');
 let path = require('path');
 let favicon = require('serve-favicon');
@@ -10,20 +9,8 @@ let users = require('./routes/users');
 let hueDataCollection = require('./routes/DataCollection/hue');
 let googleAssistantResponses = require('./routes/GoogleAssistant/googleassistant');
 let ifttt = require('./routes/IFTTT/ifttt');
-
 const https = require('https');
 const fs = require('fs');
-=======
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var index = require('./routes/index');
-var users = require('./routes/users');
-var hueDataCollection = require('./routes/DataCollection/hue');
->>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
 
 let app = express();
 
@@ -50,11 +37,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/dataCollection', hueDataCollection);
-<<<<<<< HEAD
 app.use('/googleAssistant', googleAssistantResponses);
 app.use('/IFTTT', ifttt);
-=======
->>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -75,11 +59,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-<<<<<<< HEAD
 app.listen(8091);
 https.createServer(options, app).listen(8444);
 console.log("Service démarré sur le 8091");
-=======
-app.listen(8090);
-console.log("Service démarré sur le 8090");
->>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
