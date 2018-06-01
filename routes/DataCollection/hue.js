@@ -3,6 +3,11 @@ let router = express.Router();
 let huejay = require('huejay');
 let Influx = require('influx');
 let config = require('../../auth.json');
+<<<<<<< HEAD
+=======
+let _ = require('underscore');
+let moment = require('moment-timezone');
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
 let sensorTimeManipulation = require('../custommodules/sensorTimeManipulation.js');
 const { DateTime } = require('luxon');
 
@@ -32,7 +37,11 @@ let client = new huejay.Client({
     username : config.bridge.username
 });
 
+<<<<<<< HEAD
 //beginDataCollection();
+=======
+beginDataCollection();
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -40,7 +49,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/temperature', function (req,res,next) {
+<<<<<<< HEAD
     influx.query("SELECT last(value) FROM temperature").then(results => {
+=======
+    influx.query("SELECT * FROM temperature").then(results => {
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
         json = parseInfluxData(results);
     }).then(result => {
         res.send(JSON.stringify(json));
@@ -58,7 +71,11 @@ router.get('/lightlevelPI', function (req,res,next) {
 function parseInfluxData(results){
     console.log(results.length);
     console.log(results[0].time);
+<<<<<<< HEAD
     let json = {
+=======
+    json = {
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
         "time" : [],
         "value" : []
     };

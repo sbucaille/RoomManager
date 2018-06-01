@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
+<<<<<<< HEAD
     <bookmark url="file://$PROJECT_DIR$/routes/index.js" line="15" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa4f366c-838e-4ef0-ad1a-e4cb29d2d31a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/GoogleAssistant/googleassistant.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/GoogleAssistant/googleassistant.js" afterDir="false" />
+=======
+    <bookmark url="file://$PROJECT_DIR$/routes/index.js" line="16" mnemonic="8" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa4f366c-838e-4ef0-ad1a-e4cb29d2d31a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/routes/DataCollection/hue.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/DataCollection/hue.js" afterDir="false" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,12 +31,18 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="669">
               <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+=======
+            <state relative-caret-position="364">
+              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ifttt.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/IFTTT/ifttt.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -43,28 +57,52 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="17" />
+=======
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="hue.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
               <caret line="42" column="73" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="73" />
+=======
+      <file leaf-file-name="checkIdentity.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="googleassistant.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/GoogleAssistant/googleassistant.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+=======
+      <file leaf-file-name="hue.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="checkIdentity.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,6 +126,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+=======
+      <file leaf-file-name="auth.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
             </state>
           </provider>
         </entry>
@@ -119,6 +164,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/auth.json" />
         <option value="$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js" />
         <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
@@ -126,6 +172,21 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/IFTTT/ifttt.js" />
         <option value="$PROJECT_DIR$/routes/GoogleAssistant/googleassistant.js" />
+=======
+        <option value="$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/hueDataCollectionFunctions.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/externalConnections.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js" />
+        <option value="$PROJECT_DIR$/auth.json" />
+        <option value="$PROJECT_DIR$/routes/DataCollection/hue.js" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
       </list>
     </option>
   </component>
@@ -184,7 +245,7 @@
               <item name="PIHueSense" type="b2602c69:ProjectViewProjectNode" />
               <item name="PIHueSense" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="custommodules" type="462c0819:PsiDirectoryNode" />
+              <item name="DataCollection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PIHueSense" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +275,11 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+<<<<<<< HEAD
     <property name="nodejs_package_manager_path" value="npm" />
+=======
+    <property name="restartRequiresConfirmation" value="false" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -253,6 +318,7 @@
       <workItem from="1524234182207" duration="7526000" />
       <workItem from="1524302791518" duration="5533000" />
       <workItem from="1524512111533" duration="10834000" />
+<<<<<<< HEAD
       <workItem from="1524560105374" duration="911000" />
       <workItem from="1527710436074" duration="2050000" />
       <workItem from="1527720245304" duration="2751000" />
@@ -261,22 +327,39 @@
       <workItem from="1527802959088" duration="726000" />
       <workItem from="1527863404290" duration="16000" />
       <workItem from="1527864724159" duration="4262000" />
+=======
+      <workItem from="1524560105374" duration="3716000" />
+      <workItem from="1525900543463" duration="5752000" />
+      <workItem from="1525906333474" duration="17898000" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="66615000" />
+=======
+    <option name="totallyTimeSpent" value="73466000" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.190625" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19114584" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2688629" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -299,7 +382,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -369,6 +452,76 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/openweathermap.js" />
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -535,9 +688,67 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/custommodules/sensorTimeManipulation.js">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" column="82" lean-forward="true" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/hueDataCollectionFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/beginDataCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/selectSensorDataAndSendInMeasurement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/influxDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/sendDataToInfluxDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/DataCollectionFunctions/findTypeOfSensorByID.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="55" lean-forward="true" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
         </state>
       </provider>
     </entry>
@@ -553,20 +764,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="73" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="73" />
+        <state relative-caret-position="364">
+          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="73" />
+=======
+    <entry file="file://$PROJECT_DIR$/routes/custommodules/externalConnections/checkIdentity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/DataCollection/hue.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret selection-end-line="17" />
         </state>
@@ -597,6 +823,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+=======
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+>>>>>>> 2c2fc5ff82bce8a38f095b2d4980e15268b036f2
         </state>
       </provider>
     </entry>
