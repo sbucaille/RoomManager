@@ -186,10 +186,10 @@ function parseDataToDateTime(parsed, parsedZone, opts) {
 // helps handle the details
 function toTechFormat(dt, format) {
   return dt.isValid
-    ? Formatter.create(Locale.create('en-US'), { forceSimple: true }).formatDateTimeFromString(
-        dt,
-        format
-      )
+    ? Formatter.create(Locale.create('en-US'), {
+        allowZ: true,
+        forceSimple: true
+      }).formatDateTimeFromString(dt, format)
     : null;
 }
 
@@ -411,7 +411,7 @@ export default class DateTime {
    * @example DateTime.local(2017, 3, 12, 5)              //~> 2017-03-12T05:00:00
    * @example DateTime.local(2017, 3, 12, 5, 45)          //~> 2017-03-12T05:45:00
    * @example DateTime.local(2017, 3, 12, 5, 45, 10)      //~> 2017-03-12T05:45:10
-   * @example DateTime.local(2017, 3, 12, 5, 45, 10, 765) //~> 2017-03-12T05:45:10.675
+   * @example DateTime.local(2017, 3, 12, 5, 45, 10, 765) //~> 2017-03-12T05:45:10.765
    * @return {DateTime}
    */
   static local(year, month, day, hour, minute, second, millisecond) {
@@ -449,7 +449,7 @@ export default class DateTime {
    * @example DateTime.utc(2017, 3, 12, 5)              //~> 2017-03-12T05:00:00Z
    * @example DateTime.utc(2017, 3, 12, 5, 45)          //~> 2017-03-12T05:45:00Z
    * @example DateTime.utc(2017, 3, 12, 5, 45, 10)      //~> 2017-03-12T05:45:10Z
-   * @example DateTime.utc(2017, 3, 12, 5, 45, 10, 765) //~> 2017-03-12T05:45:10.675Z
+   * @example DateTime.utc(2017, 3, 12, 5, 45, 10, 765) //~> 2017-03-12T05:45:10.765Z
    * @return {DateTime}
    */
   static utc(year, month, day, hour, minute, second, millisecond) {
@@ -1282,7 +1282,8 @@ export default class DateTime {
     }
 
     if (normalizedUnit === 'quarters') {
-      o.month = Math.floor(this.month / 3) * 3 + 1;
+      const q = Math.ceil(this.month / 3);
+      o.month = (q - 1) * 3 + 1;
     }
 
     return this.set(o);
@@ -1510,6 +1511,14 @@ export default class DateTime {
    */
   valueOf() {
     return this.isValid ? this.ts : NaN;
+  }
+
+  /**
+   * Returns the epoch milliseconds of this DateTime. Alias of {@link valueOf}
+   * @return {number}
+   */
+  toMillis() {
+    return this.valueOf();
   }
 
   /**

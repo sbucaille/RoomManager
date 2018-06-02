@@ -3,8 +3,8 @@ let config = require('../../../auth.json');
 
 //Connexion à InfluxDB
 let influx = new Influx.InfluxDB({
-    host : 'localhost',
-    port : 8086,
+    host : config.influx.address,
+    port : config.influx.port,
     database : 'RoomState',
     username : config.influx.username,
     password : config.influx.password

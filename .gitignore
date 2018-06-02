@@ -42,3 +42,6 @@ auth.json
 /sslcert
 /sslcert2
 /static
+/scriptsAutoIt
+spotifyAccessToken.json
+/node_modules

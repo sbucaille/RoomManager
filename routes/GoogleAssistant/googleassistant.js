@@ -1,41 +1,18 @@
 let express = require('express');
 let router = express.Router();
-let config = require('../../auth.json');
-let Assistant = require('actions-on-google')
-let Influx = require('influx');
-
-
-// Connexion à InfluxDB
-let influxRaspPI = new Influx.InfluxDB({
-    host : '192.168.1.18',
-    port : 8086,
-    database : 'RoomState',
-    username : config.influx.username,
-    password : config.influx.password
-})
+let config = require('../../auth');
+let Assistant = require('actions-on-google');
+let influx = require('../custommodules/externalConnections/influxDB');
 
 router.get('/testGoogleAssistant', function(req, res, next){
     console.log(req.body);
     res.render('index', { title : 'Google Assistant'});
-})
-
-router.post('/getTemperature', function (req, res, next){
-    console.log(req.body);
-
-    influxRaspPI.query("Select last(value) from temperature").then(results => {
-        console.log(results);
-        let temp = results[0].last.toString();
-        //temp = temp.replace('.',',');
-        //let fulfillmentText = "Actuellement, il fait " + temp + " degrés.";
-        let fulfillmentText = "Actuellement, il fait " + temp + " degrés dans la chambre de Steven, allez bisous !";
-        res.json({ fulfillmentText: fulfillmentText});
-    })
 });
 
 router.get('/getTemperature', function (req, res, next){
     console.log(req.body);
     
-    influxRaspPI.query("Select last(value) from temperature").then(results => {
+    influx.query("Select last(value) from temperature").then(results => {
         console.log(results);
         let temp = results[0].last.toString();
         temp = temp.replace('.',',');
@@ -46,7 +23,7 @@ router.get('/getTemperature', function (req, res, next){
 
 router.post('/getLightlevel', function (req, res, next){
     console.log(req.body);
-    influxRaspPI.query("Select last(value) from lightlevel").then(results => {
+    influx.query("Select last(value) from lightlevel").then(results => {
         console.log(results);
         let temp = results[0].last.toString();
         //temp = temp.replace('.',',');
@@ -56,7 +33,42 @@ router.post('/getLightlevel', function (req, res, next){
     })
 });
 
-router.post('/demoBedroom', function (req, res, next){
+router.post('/', function (req, res, next){
+    console.log(req.body);
+    console.log(req.body.queryResult.parameters);
+    getIntent(req, res);
+});
 
-})
+router.get('/', function(req, res, next){
+    console.log(req.body);
+    res.sendStatus(200)
+});
+
+function getIntent(req, res){
+    let intent = req.body.queryResult.intent.displayName;
+    switch (intent){
+        case 'Demonstration':
+            demonstrationIntent(req, res);
+            break;
+        case 'Get Temperature' :
+            returnTemperatureIntent(req, res);
+            break;
+    }
+}
+
+function returnTemperatureIntent(req, res){
+    influxRaspPI.query("Select last(value) from temperature").then(results => {
+        console.log(results);
+        let temp = results[0].last.toString();
+        //temp = temp.replace('.',',');
+        //let fulfillmentText = "Actuellement, il fait " + temp + " degrés.";
+        let fulfillmentText = "Actuellement, il fait " + temp + " degrés dans la chambre de Steven le bégé du 59155, allez bisous !";
+        res.json({ fulfillmentText: fulfillmentText});
+    })
+}
+
+function demonstrationIntent(req, res){
+    res.json({ fulfillmentText : "Ok, c'est parti pour une petite démonstration !"})
+}
+
 module.exports = router;

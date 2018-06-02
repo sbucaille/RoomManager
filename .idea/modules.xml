@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PIHueSense.iml" filepath="$PROJECT_DIR$/.idea/PIHueSense.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RoomManager.iml" filepath="$PROJECT_DIR$/.idea/RoomManager.iml" />
     </modules>
   </component>
 </project>
