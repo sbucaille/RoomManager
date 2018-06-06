@@ -11,7 +11,7 @@ let client = new huejay.Client({
     username : config.bridge.username
 });
 
-let HUE_DATA_COLLECTION_INTERVAL = 5000;
+let HUE_DATA_COLLECTION_INTERVAL = 60000;
 
 
 let functions = {

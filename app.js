@@ -4,6 +4,8 @@ let favicon = require('serve-favicon');
 let logger = require('morgan');
 let cookieParser = require('cookie-parser');
 let bodyParser = require('body-parser');
+
+// Routes
 let index = require('./routes/index');
 let users = require('./routes/users');
 let hueDataCollection = require('./routes/DataCollection/hue');
@@ -11,6 +13,9 @@ let googleAssistantResponses = require('./routes/GoogleAssistant/googleassistant
 let ifttt = require('./routes/IFTTT/ifttt');
 let hueApi = require('./routes/HueAPI/hueapi');
 let spotifyApi = require('./routes/SpotifyAPI/spotifyapi');
+let scriptAutoIt = require('./routes/scriptAutoIt/scriptAutoIt');
+let googleAssistantAPI = require('./routes/GoogleAssistant/broadcastassistant');
+let deCONZ = require('./routes/custommodules/deCONZ/deCONZ');
 
 const https = require('https');
 const fs = require('fs');
@@ -44,6 +49,9 @@ app.use('/googleAssistant', googleAssistantResponses);
 app.use('/IFTTT', ifttt);
 app.use('/hueAPI', hueApi);
 app.use('/spotifyApi', spotifyApi);
+app.use('/scriptAutoIt', scriptAutoIt);
+//app.use('/broadcastAssistant', googleAssistantAPI);
+app.use('/deCONZ', deCONZ);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

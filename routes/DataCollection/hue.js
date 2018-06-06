@@ -1,30 +1,14 @@
 let express = require('express');
 let router = express.Router();
 let huejay = require('huejay');
-let Influx = require('influx');
+let influx = require('../custommodules/externalConnections/influxDB');
+
 let config = require('../../auth.json');
 let sensorTimeManipulation = require('../custommodules/sensorTimeManipulation.js');
 const { DateTime } = require('luxon');
 
 let beginDataCollection = require('../custommodules/DataCollectionFunctions/beginDataCollection');
 
-
-//Connexion à InfluxDB
-let influx = new Influx.InfluxDB({
-    host : 'localhost',
-    port : 8086,
-    database : 'RoomState',
-    username : config.influx.username,
-    password : config.influx.password
-});
-
-let influxRaspPI = new Influx.InfluxDB({
-    host : '192.168.1.18',
-    port : 8086,
-    database : 'RoomState',
-    username : config.influx.username,
-    password : config.influx.password
-})
 // Connexion au bridge
 let client = new huejay.Client({
     host : config.bridge.adress,
@@ -41,15 +25,15 @@ router.get('/', function(req, res, next) {
 
 router.get('/temperature', function (req,res,next) {
     influx.query("SELECT last(value) FROM temperature").then(results => {
-        json = parseInfluxData(results);
+        let json = parseInfluxData(results);
     }).then(result => {
         res.send(JSON.stringify(json));
     })
 });
 
 router.get('/lightlevelPI', function (req,res,next) {
-    influxRaspPI.query("SELECT * FROM lightlevel").then(results => {
-        json = parseInfluxData(results);
+    influx.query("SELECT * FROM lightlevel").then(results => {
+        let json = parseInfluxData(results);
     }).then(result => {
         res.send(JSON.stringify(json));
     })

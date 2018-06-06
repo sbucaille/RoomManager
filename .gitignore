@@ -45,3 +45,5 @@ auth.json
 /scriptsAutoIt
 spotifyAccessToken.json
 /node_modules
+/routes/GoogleAssistant/authGoogleAssistant.json
+/routes/GoogleAssistant/tokens.json

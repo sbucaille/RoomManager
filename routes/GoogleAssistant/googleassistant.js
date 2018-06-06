@@ -3,6 +3,8 @@ let router = express.Router();
 let config = require('../../auth');
 let Assistant = require('actions-on-google');
 let influx = require('../custommodules/externalConnections/influxDB');
+let spotifyApi = require('../custommodules/externalConnections/spotify');
+let hueSyncFunctions = require('../scriptAutoIt/hueSyncFunctions');
 
 router.get('/testGoogleAssistant', function(req, res, next){
     console.log(req.body);
@@ -57,17 +59,31 @@ function getIntent(req, res){
 }
 
 function returnTemperatureIntent(req, res){
-    influxRaspPI.query("Select last(value) from temperature").then(results => {
+    influx.query("Select last(value) from temperature").then(results => {
         console.log(results);
         let temp = results[0].last.toString();
         //temp = temp.replace('.',',');
         //let fulfillmentText = "Actuellement, il fait " + temp + " degrés.";
-        let fulfillmentText = "Actuellement, il fait " + temp + " degrés dans la chambre de Steven le bégé du 59155, allez bisous !";
+        let fulfillmentText = "Actuellement, il fait " + temp + " degrés dans la chambre de Steven, allez bisous !";
         res.json({ fulfillmentText: fulfillmentText});
     })
 }
 
 function demonstrationIntent(req, res){
+    spotifyApi.play(
+        {
+            device_id : config.spotifyApi.computerID,
+            uris : ["spotify:track:73oamquev2r1MMkSDEjKgQ"]
+        }).then(
+        function (data) {
+            console.log(data.body);
+        },
+        function (err) {
+            console.error(err);
+        }
+    );
+    hueSyncFunctions.selectMusicMode();
+    hueSyncFunctions.enableHueSync();
     res.json({ fulfillmentText : "Ok, c'est parti pour une petite démonstration !"})
 }
 
