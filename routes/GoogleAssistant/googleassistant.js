@@ -62,7 +62,7 @@ function returnTemperatureIntent(req, res){
     influx.query("Select last(value) from temperature").then(results => {
         console.log(results);
         let temp = results[0].last.toString();
-        //temp = temp.replace('.',',');
+        temp = temp.replace('.',',');
         //let fulfillmentText = "Actuellement, il fait " + temp + " degrés.";
         let fulfillmentText = "Actuellement, il fait " + temp + " degrés dans la chambre de Steven, allez bisous !";
         res.json({ fulfillmentText: fulfillmentText});
@@ -73,7 +73,7 @@ function demonstrationIntent(req, res){
     spotifyApi.play(
         {
             device_id : config.spotifyApi.computerID,
-            uris : ["spotify:track:73oamquev2r1MMkSDEjKgQ"]
+            uris : ["spotify:track:70X9TAIp62fA6FbkwRG4M6"]
         }).then(
         function (data) {
             console.log(data.body);

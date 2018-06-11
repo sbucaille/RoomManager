@@ -13,7 +13,7 @@ router.get('/test', function(req, res, next){
     spotifyApi.getMyCurrentPlaybackState({}).then(
         function(data){
             console.log('Now playing', data.body);
-            res.send(200)
+            res.sendStatus(200)
         }, function(err) {
             console.log('Something went wrong!', err);
         });
@@ -46,7 +46,7 @@ router.get('/playOnRaspberry', function(req, res, next) {
 })
 
 router.get('/getAuthorizationCode', function(req, res, next){
-    let code = "AQCfgYzWg1QqvAIgTt3hPkndXwYrQqB5csC1PKib5a258Mp52WcBsh3PW8_nCBY14ozoXV_bRoTWJ6QzrFm4pNyFYvSdX_hd7G7s33tFaO319KVEE-7IZvGw0Q_Pc2koaanlwkkKO-ZPiNzApTUAGpQ17sfKMPhPgT65RReERa46YKVi_apzoG-P8R_DToSXfT5Wt6PPvKB4HnlReyX7BskeAc60qlOACZTrv0RXdhTwoxxfT52Yc7vQseu_XOhB3tWmAodgFJyWQa97swnV_ODb898QbYh7YJW5Wd9g3xYTTmawESevpFG-5WkNsR0LxpzYUAS_SeoZ1P2Wth4KP2_eJQ14_7fjzC4QxML_mrny1iEEJ-i5rC09gK3N-gE4vU1iMnlHcUmlKih1RemRqEx0HiDmD9CdbNi-96jBwmZZushnwmLj5RE09zbBWVW9lAGQj0-RR6kFHSEzhRYIKwcUy70dZeRtnXS9861D9iti0bg6P76F5Kk8ELFeWqmUqTzC-8exOwOr4YlxAUly9CUMIz03_Y2Xxk70Y_GWPuiiQGUZhoNWq3rLmNJShlvGE_2i9_anXnjnAGtkaFqs6KjhD5kGXRDP-F9fYnhJlPO9K-XhaO0E3BADUDcmqevJXqyS3IiYYBptJnPHIqFqBXukXB2dBoJhVpou52C1Gfose0lLTfqI5HZrJ1sUQEda3XsNOp6sJcfXW1lKEIDbmnTdpbu7DzIDRgXz7hRfVbnW";
+    let code = "AQCrQIG4lnSHyUe3xHlsVp-TMxoydAKdLlvaWicLvUJYQ0NiO7zPR3OLAl97il-g3HE6nzRH3hOS7lxJy0VgtbY_VB0GxvQf9isvMLn14cdaZB_xAkxc1-LYrsp47JbeG0yhyk0kJBeTmYM_u4LSJN-G0_aiddrcZAa1Iz1PZx8UV5HTrEIchQYYPrNLxTfHXfuFUn5teXuZcVPQU6DGy_MSj81uKgaeYvBIcQ7zhD9FWDhENbzleA9NvwjM2DQ5rpvc8N0QvQKOTZahWiU88MdpLI1W8j6D720aCzds9EbW6PyFHs8ffHte0jGGZqZ4h8fAbyy4nBKnEfxV6KIEAgwl7eoWwKLjIvojjrkT5yngatdYrxbrCcHRvFf9kUDUstcOpod6j-OA5XSp2IAeJV73gqe0072D7e7myc7OthiVH4VJ6bBVD-fHax52cHeCgpp8mG4NVcvUjTOqSn9BQ3Zg78FA5Fg0Pjpj9QL2erw-4KjiN1830pu6vdm2mgBn5iV5QrRCUPNWv1r-dypNP91AU9RaBUZx5WqACU0tOpGibce6OxXY4qXl25TXZC5vHHIFG94Ua8JawZd-wOLUbsD3sV300JDRAvGJ1IZJNDrNKntFyuP23xyX_Z19-xEDoJiqEMLlSjtxaiuhKdKwgu8QNpHaWDNp35gqTyGbT070JKZHtQvLGk2mIkpy0mPhxHu0AcDSDNMmzGyOm3A9JFwYDb_0xCfTaB3cn1zUS4Gg4A";
     spotifyApi.authorizationCodeGrant(code).then(
         function(data) {
             console.log('The token expires in ' + data.body['expires_in']);
